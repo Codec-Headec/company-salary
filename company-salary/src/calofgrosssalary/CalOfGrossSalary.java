@@ -4,10 +4,13 @@ import java.util.*;
 public class CalOfGrossSalary{
     public static void main(String[] args) {
         float bs, gs, da, hra;
+        System.out.println("Enter Salary here= Rs.");
         Scanner scn;
 
         scn = new Scanner(System.in);
         bs = scn.nextFloat();
+
+
 
         if (bs < 1500)
         {
@@ -22,7 +25,7 @@ public class CalOfGrossSalary{
 
         gs = bs + hra + da;
 
-        System.out.println("Gross Salary = Rs."+gs);
+        System.out.println("Gross Salary= Rs."+gs);
 
     }
 }
